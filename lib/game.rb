@@ -68,7 +68,7 @@ class Game
 
   def play
     while !over? && !won?
-      binding.pry
+  #    binding.pry
       turn
     end
     if won?
